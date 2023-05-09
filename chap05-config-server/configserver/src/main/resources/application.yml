@@ -1,0 +1,15 @@
+spring:
+    application:
+        name: config-server
+
+    profiles:
+        active: native
+    cloud:
+      config:
+        server:
+
+          # ????? ???? ?? ??? native ??
+          native:
+              search-locations: file:///Users/kim-yina/Desktop/yinaLab/2023Lab/msa/spring-ms-in-action/spring-msa-ex/configs
+server:
+    port: 8071
